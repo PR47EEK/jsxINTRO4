@@ -28,6 +28,8 @@ if (time >= 12 && time < 18) {
 }
 
 ReactDOM.render(
-  <h1 style={customStyle}>{greet}</h1>,
+  <h1 className="heading" style={customStyle}>
+    {greet}
+  </h1>,
   document.getElementById("root")
 );
